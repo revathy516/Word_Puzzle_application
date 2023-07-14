@@ -10,11 +10,11 @@
 
 
 ## Features
-
 * Saves user information with Shared preferences and shows that on app restart
 * Can play the quiz and the score will be updated
 * Leaderboard helps in viewing the scores of all the players 
 * User friendly design
+* Download and install .apk file here in word_puzzle.apk
 
 ## Requirements
 
