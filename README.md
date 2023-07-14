@@ -35,7 +35,7 @@
     <td>Quiz question</td>
   </tr>
   <tr>
-    <td valign="top"><img src="screenshots/USER_INFO_HOME_SCREEN.PNG" width=270 height=480></td>
+    <td valign="top"><img src="Screenshots/USER_INFO_HOME_SCREEN.png" width=270 height=480></td>
     <td valing="top"><img src="screenshots/savedetails.jpg" width=270 height=480></td>
     <td valing="top"><img src="screenshots/q1.jpg" width=270 height=480></td>
   </tr>
