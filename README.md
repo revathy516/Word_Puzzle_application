@@ -30,32 +30,28 @@
 
 <table>
   <tr>
-    <td>User Info Form and select category</td>
-    <td>Save Details in Shared Preferences</td>
-    <td>Quiz question</td>
+    <td>User Info Form</td>
+    <td>User Info with select category</td>
+    <td>Filled data of userInfo</td>
   </tr>
   <tr>
     <td valign="top"><img src="Screenshots/USER_INFO_HOME_SCREEN.png" width=270 height=480></td>
-    <td valing="top"><img src="screenshots/savedetails.jpg" width=270 height=480></td>
-    <td valing="top"><img src="screenshots/q1.jpg" width=270 height=480></td>
+    <td valing="top"><img src="Screenshots/USER_INFO_SCREEN_2.png" width=270 height=480></td>
+    <td valing="top"><img src="Screenshots/USER_INFO_FILLED_DATA.png" width=270 height=480></td>
   </tr>
   <tr>
-    <td>Show next on selecting option</td>
-    <td>Can go to prev question</td>
-    <td>Show end on last question</td>
+    <td>Quiz screen</td>
   </tr>
   <tr>
-    <td valign="top"><img src="screenshots/q1next.jpg" width=270 height=480></td>
-    <td valign="top"><img src="screenshots/prevques.jpg" width=270 height=480></td>
-    <td valign="top"><img src="screenshots/end.jpg" width=270 height=480></td>
+    <td valign="top"><img src="Screenshots/QUIZ_1.png" width=270 height=480></td>
   </tr>
   <tr>
-    <td>Redirect to Home Screen & Show score</td>
-    <td>Show score and User profile on app restart</td>
+    <td>Leaderboard Screen</td>
+    <td>Leaderboard with share tray</td>
   </tr>
   <tr>
-    <td valign="top"><img src="screenshots/score.jpg" width=270 height=480></td>
-    <td valign="top"><img src="screenshots/score.jpg" width=270 height=480></td>
+    <td valign="top"><img src="Screenshots/LEADERBOARD_SHARE.png" width=270 height=480></td>
+    <td valign="top"><img src="Screenshots/LEADERBOARD_SHARE_TRAY.png" width=270 height=480></td>
   </tr>
  </table>
 
