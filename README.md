@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-<strong>Standard Quiz Application developed with React Native</strong>
+<strong>Standard word Puzzle Quiz Application developed with React Native</strong>
 </td>
 </tr>
 </table>
@@ -13,7 +13,6 @@
 
 * Saves user information with Shared preferences and shows that on app restart
 * Saves quiz score in a file, so when user restarts the app, he/she can check the previous score
-* User can revisit the question and change the answer
 * User friendly design
 
 ## Requirements
@@ -31,12 +30,12 @@
 
 <table>
   <tr>
-    <td>User Form</td>
+    <td>User Info Form and select category</td>
     <td>Save Details in Shared Preferences</td>
     <td>Quiz question</td>
   </tr>
   <tr>
-    <td valign="top"><img src="screenshots/userform.jpg" width=270 height=480></td>
+    <td valign="top"><img src="screenshots/USER_INFO_HOME_SCREEN.PNG" width=270 height=480></td>
     <td valing="top"><img src="screenshots/savedetails.jpg" width=270 height=480></td>
     <td valing="top"><img src="screenshots/q1.jpg" width=270 height=480></td>
   </tr>
