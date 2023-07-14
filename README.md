@@ -12,7 +12,8 @@
 ## Features
 
 * Saves user information with Shared preferences and shows that on app restart
-* Saves quiz score in a file, so when user restarts the app, he/she can check the previous score
+* Can play the quiz and the score will be updated
+* Leaderboard helps in viewing the scores of all the players 
 * User friendly design
 
 ## Requirements
@@ -25,6 +26,7 @@
 - Install React Native
 - clone the repo 
 - Start terminal and write command  <code>react-native run-android </code>and run app on your plugged phone/Android Emulator
+- Start terminal and write command  <code>react-native run-ios </code>
 
 ## Screenshots
 
