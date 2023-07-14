@@ -1,9 +1,9 @@
-# Quiz App (React-Native)
+# Word Puzzle (React-Native)
 
 <table>
 <tr>
 <td>
-<strong>Standard Quiz App developed with React Native</strong>
+<strong>Standard Quiz Application developed with React Native</strong>
 </td>
 </tr>
 </table>
