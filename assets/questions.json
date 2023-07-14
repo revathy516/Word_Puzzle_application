@@ -2,11 +2,7 @@
     "questions": [
         {
             "questionText": "Capital of Singapore",
-"answers": "SINGAPORE"
-        },
-        {
-            "questionText": "Capital of India",
-            "answers":"NEWDELHI"
-        }    
+             "answers": "SINGAPORE"
+        }
     ]
 }

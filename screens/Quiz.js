@@ -15,7 +15,6 @@ const Quiz = (props) => {
             writeScore(`${score}`);
             props.navigation.navigate('LeaderBoard', {score: score});
             return
-            //${score} out of ${questions['questions'].length}`
         }
         setQuestionIndex((questionIndex) => questionIndex + 1);
         setShowNext(false);

@@ -5,11 +5,10 @@ import {
   SafeAreaView,
   Text,
   TouchableOpacity,
-  Button,
 } from "react-native"
 import { useNavigation } from "@react-navigation/native";
 
-const QuizRow = (props) => {
+const QuizRow = () => {
   const navigation = useNavigation();
 const ReturnBlock = ({
   index,
@@ -24,7 +23,6 @@ const ReturnBlock = ({
 }) => {
   
   const letter = guess[index]
-  const wordLetter = word[index]
   const blockStyles: any[] = [styles.guessSquare]
   const textStyles: any[] = [styles.guessLetter]
 
@@ -74,7 +72,7 @@ const ScrambledRow = ({
 )
 
 const words: string = 
-  w
+  "SINGAPORE" // hardcoded data for local string answer
 
 const ScrambledLetterBox = ({ onKeyPress , words}: { onKeyPress: (letter: string) => void , words: string}) => {
   const scrambledWord= scramble(words)
@@ -155,19 +153,13 @@ const defaultGuess: IGuess = {
     const guess: string = guesses[guessIndex]
     if (letter === "ENTER") {
 
-      if (guess.length !== 5) {
-        alert("Wrong Guess! Try Again")
-        setGameComplete(false)
-        return
-      }
-
       if (guess === activeWord) {
         navigation.navigate('LeaderBoard')
         setGameComplete(true)
         return
       }
-
     }
+    
     if(guessIndex ==1){
       const tempGuess = guesses[0].concat(guess)
       if(activeWord == tempGuess){
@@ -175,9 +167,8 @@ const defaultGuess: IGuess = {
         setGameComplete(true)
         return
       }
-      console.log("tempguess"+ String(tempGuess))
     }
-
+  
     if (letter === "⌫") {
       setGuesses({ ...guesses, [guessIndex]: guess.slice(0, -1) })
       return

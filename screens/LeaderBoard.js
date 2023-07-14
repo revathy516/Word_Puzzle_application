@@ -1,18 +1,24 @@
-import React from "react"
+import React, { useState, useEffect } from 'react';
 import {
   StyleSheet,
   SafeAreaView,
   Share, View, Button
 } from "react-native"
 import Leaderboard from 'react-native-leaderboard';
+import {readScore} from '../assets/scoreStorage';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const LeaderBoard = (props) => {
+  // Hardcoded data, since in reality it will be available in cloud and consumed by webservice call.
   const datas = 
      [
-        {userName: props.userName, highScore: props.score},
+        {userName:"revathy", highScore: "10"},
+        {userName: "Mark", highScore: "5"},
+        {userName: "kenny", highScore: "5"},
+        {userName: "Gowtham", highScore: "5"}
+
         //...
     ]
-    const sampleData= [{}]
     const onShare = async () => {
       try {
         const result = await Share.share({
@@ -36,7 +42,7 @@ const LeaderBoard = (props) => {
   return (
     <SafeAreaView style={styles.container}>
       <Leaderboard 
-        data={data} 
+        data={datas} 
         sortBy='highScore' 
         labelBy='userName'/>
          <View style= {styles.categoryButton}>

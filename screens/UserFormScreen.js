@@ -98,6 +98,7 @@ const UserFormScreen = (props) => {
     }
 
     const goTOQuiz = () => {
+        handleSubmit();
         isFormValid ? props.navigation.navigate('Quiz') : showQuizToast();
     }
 
@@ -149,11 +150,6 @@ const UserFormScreen = (props) => {
                             <Button title="Animals" onPress={goTOQuiz} />
                         </View>
                     </View>
-                    <View style={styles.categoryContainer}>
-                        {/* <View>
-                            <Button title="Submit Details" onPress={handleSubmit} />
-                        </View> */}
-                    </View>
                 </ScrollView>
             </TouchableWithoutFeedback>
         </KeyboardAvoidingView>
@@ -182,11 +178,6 @@ const styles = StyleSheet.create({
     buttonContainer: {
         flexDirection: 'row',
         justifyContent: 'space-around'
-    },
-    categoryContainer: {
-        flexDirection: 'column',
-        justifyContent: 'space-around',
-        margin: 10,
     },
     categoryButton:{
       marginVertical:10,
